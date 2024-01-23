@@ -1,0 +1,36 @@
+.bg11 {
+  background-image: url(../img/img79.png);
+  background-repeat: no-repeat;
+}
+
+.bg .bg-1 {
+  background-image: url(../img/b-bg3.jpg);
+  background-size: contain;
+  background-size: cover;
+}
+.bg .bg-1 .row .ww-50 {
+  padding-bottom: 290px;
+}
+.bg .bg-1 .row .ww-50 h3 {
+  letter-spacing: 3px;
+  padding-top: 270px;
+}
+.bg .bg-1 .row .ww-50 button {
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #5ba515;
+  color: white;
+}
+.bg .bg-1 .row .ww-50 button:hover {
+  background-color: rgba(91, 165, 21, 0.7137254902);
+}
+
+.choose .container .row .why .box-1 {
+  width: 150px;
+  border: 2px solid #5ba515;
+}
+.choose .container .row .why p samp {
+  color: #5ba515;
+  font-weight: 800;
+}/*# sourceMappingURL=Home.css.map */

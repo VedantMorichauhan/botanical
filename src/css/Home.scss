@@ -1,0 +1,55 @@
+
+// WELLCOME TO BOTANICAL 
+.bg11{
+    background-image: url(../img/img79.png);
+    background-repeat: no-repeat;
+}
+.bg{
+    .bg-1{
+        background-image: url(../img/b-bg3.jpg);
+        background-size: contain;
+        background-size: cover;
+        .row{
+            .ww-50{
+                padding-bottom: 290px;
+                h3{
+                    letter-spacing: 3px;
+                    padding-top: 270px;
+                }
+                button{
+                    padding: 15px;
+                    border-radius: 25px;
+                    border: none;
+                    background-color: #5ba515;
+                    color: white;
+                    &:hover{
+                        background-color: #5ba515b6;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
+
+// Why choose us
+
+.choose{
+    .container{
+        .row{
+            .why{
+             .box-1{
+                width: 150px;
+                border: 2px solid #5ba515;
+             }   
+             p{
+                samp{
+                    color: #5ba515;
+                    font-weight: 800;
+                }
+             }
+            }
+        }
+    }
+}
