@@ -1,1 +1,52 @@
-{}
+{
+  "user": [
+    {
+      "id": "2143",
+      "username": "vedant",
+      "email": "vedant@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3c90",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "fb48",
+      "username": "VATSAL",
+      "email": "vatsal@gmail.con",
+      "password": "1234"
+    },
+    {
+      "id": "73b1",
+      "username": "VATSAL",
+      "email": "vatsal@gmail.con",
+      "password": "3231"
+    },
+    {
+      "id": "9348",
+      "username": "mori",
+      "email": "moti@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "805b",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "ba8c",
+      "username": "vedant1",
+      "email": "vedant2141@gmail.com",
+      "password": "vedant2141"
+    },
+    {
+      "id": "e8ec",
+      "username": "mori",
+      "email": "mori@gmail.com",
+      "password": "mori1234"
+    }
+  ]
+}

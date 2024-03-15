@@ -5,14 +5,15 @@ import { useDispatch, useSelector } from "react-redux";
 // import { logout } from "../redux/Action";
 import BannerImage from "../img/logo.png"
 import { Dropdown, Nav, NavDropdown } from 'react-bootstrap';
+import { logout } from '../redux/Action';
 
 
 const Hav = () => {
-//   let dispatch = useDispatch();
-//   let data = useSelector((store) => store.user);
-//   // console.log(data);
+  let dispatch = useDispatch();
+  let data = useSelector((store) => store.user);
+  // console.log(data);
 
-//   let all=useSelector((store)=>store)
+  let all=useSelector((store)=>store)
   // console.log(all);
 
   return (
@@ -24,11 +25,27 @@ const Hav = () => {
       <Link to="/Store" className="link padding-1"><h4>Store</h4></Link>
       <Link to="/Blog" className="link padding-1"><h4>Blog</h4></Link>
        <img src={BannerImage} alt="" />
-      
-      <Link to="/Cart" className="link padding-1"><h4>Cart</h4></Link>
       <Link to="/Contect" className="link padding-1"><h4>Contect</h4></Link>
-      <Link to="/Login" className="link padding-1"><h4>Login</h4></Link>
-      <Link to="/Signup" className="link padding-1"><h4>Signup</h4></Link>
+      <Link to="/Book" className="link padding-1">
+        <h4>Cart</h4>
+      </Link>
+      {data.isLogin ? (
+        <span className="linkv padding-1">{data.userData.username}</span>
+      ) : (
+        <Link to="/Signup" className="link padding-1">
+          <h4>Signup</h4>
+        </Link>
+      )}
+      {data.isLogin ? (
+        <span className="link padding-1" onClick={() => dispatch(logout())}>
+          <h4>LogOut</h4>
+        </span>
+      ) : (
+        <Link to="/login" className="link padding-1">
+          <h4>Login</h4>
+        </Link>
+      )}
+      
       
     </div>
     </>

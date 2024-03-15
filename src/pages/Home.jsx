@@ -10,7 +10,16 @@ import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { Col, Row } from 'react-bootstrap';
 import img01 from "../img/img01.jpg"
 import img02 from "../img/img02.jpg"
+import img03 from "../img/img03.jpg"
+import img04 from "../img/img04.jpg"
+import img05 from "../img/img05.jpg"
+import img06 from "../img/img06.jpg"
+import img07 from "../img/img07.jpg"
+import img08 from "../img/img08.jpg"
+import img09 from "../img/img09.jpg"
 import hbdr from "../img/hbdr.png"
+import ad1 from "../img/ad1.jpg"
+import ad2 from "../img/ad2.jpg"
 
 
 
@@ -122,7 +131,7 @@ function Home() {
             <div class="col-12 col-md-3">
             <div class="special-grid py-4">
               <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
+               <img className='all-product' src={img03} alt="" />
                 <div class="content1 text-center ">
                 <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
                 <i className='icon-1 p-3 m-1'><SlBasket /></i>
@@ -140,7 +149,7 @@ function Home() {
             <div class="col-12 col-md-3">
             <div class="special-grid py-4">
               <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
+               <img className='all-product' src={img04} alt="" />
                 <div class="content1 text-center ">
                 <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
                 <i className='icon-1 p-3 m-1'><SlBasket /></i>
@@ -158,7 +167,24 @@ function Home() {
             <div class="col-12 col-md-3">
             <div class="special-grid py-4">
               <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
+               <img className='all-product' src={img05} alt="" />
+                <div class="content1 text-center ">
+                <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
+                <i className='icon-1 p-3 m-1'><SlBasket /></i>
+                <i className='icon-1 p-3 m-1'><LuEye /></i>
+                <i className='icon-1 right-1 p-3 m-1'><FaArrowRightArrowLeft /></i>
+                </div>
+                  <div class="card-title title-1 text-center">
+                     <h4 class="fs-5 mt-3 fw-bold">Sit voluptatem</h4>
+                     <h4>68.00 $</h4>
+                  </div>
+              </div>
+             </div>
+            </div>
+            <div class="col-12 col-md-3">
+            <div class="special-grid py-2">
+              <div class="gallery-single">
+               <img className='all-product' src={img06} alt="" />
                 <div class="content1 text-center ">
                 <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
                 <i className='icon-1 p-3 m-1'><SlBasket /></i>
@@ -176,7 +202,7 @@ function Home() {
             <div class="col-12 col-md-3">
             <div class="special-grid py-2">
               <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
+               <img className='all-product' src={img07} alt="" />
                 <div class="content1 text-center ">
                 <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
                 <i className='icon-1 p-3 m-1'><SlBasket /></i>
@@ -194,25 +220,7 @@ function Home() {
             <div class="col-12 col-md-3">
             <div class="special-grid py-2">
               <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
-                <div class="content1 text-center ">
-                <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
-                <i className='icon-1 p-3 m-1'><SlBasket /></i>
-                <i className='icon-1 p-3 m-1'><LuEye /></i>
-                <i className='icon-1 right-1 p-3 m-1'><FaArrowRightArrowLeft /></i>
-                </div>
-                  <div class="card-title title-1 text-center">
-                     <h4 class="fs-5 mt-3 fw-bold">Sit voluptatem</h4>
-                     <h4>68.00 $</h4>
-                  </div>
-              </div>
-             </div>
-            </div>
-
-            <div class="col-12 col-md-3">
-            <div class="special-grid py-2">
-              <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
+               <img className='all-product' src={img08} alt="" />
                 <div class="content1 text-center ">
                 <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
                 <i className='icon-1 p-3 m-1'><SlBasket /></i>
@@ -230,7 +238,7 @@ function Home() {
             <div class="col-12 col-md-3">
             <div class="special-grid py-2">
               <div class="gallery-single">
-               <img className='all-product' src={img02} alt="" />
+               <img className='all-product' src={img09} alt="" />
                 <div class="content1 text-center ">
                 <i className='icon-1 left-1  p-3 m-1'><FaRegHeart /></i>
                 <i className='icon-1 p-3 m-1'><SlBasket /></i>
@@ -245,6 +253,56 @@ function Home() {
              </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/*   gift card */}
+
+      <div className="container ">
+      <div className="row">
+        <div className="col-12 col-md-6 There ">
+              <Row className='pt-5'>
+                 <Col sm={2}>
+                  <div className="june text-center">
+                      <div className="col"><h1 className='fw-bold' >18</h1></div>
+                      <div className="col"><h3 className='fs-5 pb-3'>june</h3></div>
+                  </div>
+                 </Col>
+                  <Col  sm={10}>
+                    <h5 >There are many variations of passages of Lorem Ipsum available</h5>
+                    <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod titncidunt ut laoreet dolore magna aliquam erat volutpat. Ut ...</p>
+                  </Col>
+              </Row>
+
+        </div>
+
+        <div className="col-12 col-md-6 There">
+        <Row className='pt-5'>
+                 <Col sm={2}>
+                 <div className="june text-center">
+                      <div className="col"><h1 className='fw-bold'>18</h1></div>
+                      <div className="col"><h3 className='fs-5 pb-3'>june</h3></div>
+                  </div>
+                 </Col>
+                  <Col sm={10}>
+                    <h5 >There are many variations of passages of Lorem Ipsum available</h5>
+                    <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod titncidunt ut laoreet dolore magna aliquam erat volutpat. Ut ...</p>
+                  </Col>
+              </Row>
+        </div>
+      </div>
+     </div>
+
+      <section>
+        <div className="container">
+          <div className="row">
+              <div className="w-50">
+                <img src={ad1} alt="" />
+              </div>
+              <div className="w-50">
+                <img src={ad2} alt="" />
+              </div>
           </div>
         </div>
       </section>
